@@ -1,0 +1,83 @@
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 500px;
+    width: 100%;
+    margin-left: 400px;
+    margin-top: 20px;
+    background-color: transparent;
+    border-style: solid;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 100px;
+    border-color: chocolate;
+
+}
+.input-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    position: relative; 
+    font-size: 20px;
+    row-gap: 20px;
+   
+}
+label{
+    background-color: transparent;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    padding: 0 3px;
+    transition: ease-in-out ,1s;
+    pointer-events: none;
+    color: rgb(4, 134, 102);
+    font-style: oblique;
+}
+input,
+textarea {
+    background-color: transparent;
+    padding: 12px 20px;
+    border: 1px solid rgb(4, 78, 68);
+    border-radius: 20px;
+    font-size: 16px;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+    font-style: normal;
+}
+
+input:focus+label,
+textarea:focus+label {
+    top: -12px;
+}
+input:valid+label,
+textarea:focus+label {
+    top: -12px;
+}
+input[type="submit"] {
+    transition: ease-in-out .2s;
+    cursor: pointer;
+    color: rgb(4, 85, 105);
+}
+input[type="submit"]:hover {
+    background-color: rgb(224, 3, 3);
+    color: rgb(252, 252, 252);
+} 
+img{
+    width: 200px;
+    height: 200px;
+    margin-left: 550px;
+    margin-top: 10px;
+    border-style: solid;
+    border-radius: 20px;
+    background-color: transparent;
+
+}
+body{
+    background-color: rgb(255, 255, 255);
+
+}  
